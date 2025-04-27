@@ -1,17 +1,36 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paulas & Leons Hochzeit</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Save the Date: 24.04.2026</h1>
-    <p>
-        Wir sagen Ja!
-        Am 24. April 2026 möchten wir gemeinsam mit euch einen unvergesslichen Tag feiern.
-        Bitte merkt euch das Datum schon einmal vor – weitere Infos folgen bald!
-        Wir freuen uns riesig auf euch!
-        Paula & Leon
-    </p>
+  <header>
+    <h1>Paula & Leon</h1>
+    <p>Wir sagen Ja!</p>
+    <p><strong>Save the Date:</strong> 24 April 2026</p>
+  </header>
+
+  <section class="details">
+    <h2>Details</h2>
+    <p><strong>Wo:</strong> ???, Hamburg</p>
+    <p><strong>Wann:</strong> Standesamt um 13 Uhr, Party danach</p>
+  </section>
+
+  <section class="rsvp">
+    <h2>RSVP</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Any message for us?" rows="4"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Wir freuen uns auf euch! 🎉</p>
+  </footer>
 </body>
 </html>
